@@ -18,7 +18,7 @@ import {
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 
-const Links = ['Dashboard', 'Projects', 'Team'];
+const Links = ['', 'Projects', 'Team'];
 
 const NavLink = ({ children }) => (
   <Link
@@ -95,7 +95,7 @@ export default function Navbar() {
         ) : null}
       </Box>
 
-      <Box p={4}>Main Content Here</Box>
+      
     </>
   );
 }
