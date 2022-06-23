@@ -18,8 +18,8 @@ import {
     IoSearchSharp,
   } from 'react-icons/io5';
   import {IoLogoJavascript, IoLogoHtml5} from 'react-icons/io'
-  import {SiPostgresql, SiRedux, SiVercel} from 'react-icons/Si'
-  import {DiReact} from 'react-icons/Di'
+  // import {SiPostgresql, SiRedux, SiVercel} from 'react-icons/Si'
+  // import {DiReact} from 'react-icons/Di'
   import { ReactElement } from 'react';
   
   
@@ -66,7 +66,7 @@ import {
               }>
               <Feature
                 icon={
-                  <Icon as={DiReact} color={'blue.500'} w={10} h={10} />
+                  <Icon as={IoLogoJavascript} color={'blue.500'} w={10} h={10} />
                 }
                 iconBg={'black'}
                 text={'React.Js'}
@@ -94,20 +94,20 @@ import {
               }>
               <Feature
                 icon={
-                  <Icon as={SiPostgresql} color={'blue.500'} w={5} h={5}  />
+                  <Icon as={IoLogoJavascript} color={'blue.500'} w={5} h={5}  />
                 }
                 iconBg={'white'}
                 text={'Postgress'}
                 
               />
               <Feature
-                icon={<Icon as={SiRedux} color={'purple.500'} w={5} h={5} />}
+                icon={<Icon as={IoLogoJavascript} color={'purple.500'} w={5} h={5} />}
                 iconBg={'#ccc'}
                 text={'Redux'}
               />
               <Feature
                 icon={
-                  <Icon as={SiVercel} color={'#fff'} w={5} h={5} />
+                  <Icon as={IoLogoJavascript} color={'#fff'} w={5} h={5} />
                 }
                 iconBg={'#000'}
                 text={'Next'}
