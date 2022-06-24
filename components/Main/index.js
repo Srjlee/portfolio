@@ -65,8 +65,7 @@ import {
                 />
               }>
               <Feature
-                
-                  Image={<Icon as={DiReact} color={'dark.500'} w={5} h={5} />}
+                                  Image={<Icon as={DiReact} color={'dark.500'} w={5} h={5} />}
                 
                 // iconBg={'white'}
                 text={'React.Js'}
