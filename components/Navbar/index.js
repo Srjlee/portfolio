@@ -14,11 +14,12 @@ import {
   MenuDivider,
   useDisclosure,
   useColorModeValue,
+  Image,
   Stack,
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 
-const Links = ['', 'Projects', 'Team'];
+const Links = ['', 'Proyectos', 'Contacto'];
 
 const NavLink = ({ children }) => (
   <Link
@@ -39,7 +40,7 @@ export default function Navbar() {
 
   return (
     <>
-      <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
+      <Box bg={'#242858'} px={4}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
             size={'md'}
@@ -49,7 +50,9 @@ export default function Navbar() {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={'center'}>
-            <Box>Logo</Box>
+            <Box>
+              <Image src='/logo-sm-solo-fdo-transp.png'  w={'13rem'}  />
+            </Box>
             <HStack
               as={'nav'}
               spacing={4}
