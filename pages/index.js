@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Main from '../components/Main'
+import Testimonial from '../components/Testimonial'
 
 export default function Home() {
   return (
@@ -14,11 +15,14 @@ export default function Home() {
         <link rel="icon" href="/perfil.jpg" />
       </Head>
 
-    <Navbar/>
-      <Main/>
+      <Navbar />
 
-     
-      <Footer/>
+      <Main />
+
+      {/* <Testimonial /> */}
+
+
+      <Footer />
     </div>
   )
 }

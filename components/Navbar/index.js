@@ -19,7 +19,7 @@ import {
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 
-const Links = ['Proyectos', 'Contacto'];
+const Links = [{name:'Proyectos', ir: '/proyectos'}, {name:'Contacto', ir: '/contact'}];
 
 const NavLink = ({ children }) => (
   <Link
@@ -28,11 +28,11 @@ const NavLink = ({ children }) => (
     rounded={'md'}
     color='#C8C9D5'
     _hover={{
-      textDecoration: 'none',
-      bg: useColorModeValue('gray.200', 'gray.700'),
+      textDecoration: 'none', color: '#28BED6'
+      
     }}
-    href={'#'}>
-    {children}
+    href={children.ir}>
+    {children.name}
   </Link>
 );
 

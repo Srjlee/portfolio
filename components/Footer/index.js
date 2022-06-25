@@ -9,7 +9,7 @@ import {
     useColorModeValue,
     VisuallyHidden,
   } from '@chakra-ui/react';
-  import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+  import { FaInstagram,  FaMailBulk, FaWhatsapp } from 'react-icons/fa';
   import { ReactNode } from 'react';
   
   const Logo = (props) => {
@@ -63,11 +63,11 @@ import {
           <Logo />
           <Text>SI LO PUEDES SOÑAR, LO PUEDES LOGRAR</Text>
           <Stack direction={'row'} spacing={6}>
-            <SocialButton label={'Twitter'} href={'#'}>
-              <FaTwitter />
+            <SocialButton label={'Mail'} target="_blank" href={'https://mail.google.com/mail/?view=cm&fs=1&to=pablod.dipietro@gmail.com&su=Vi Tu Portfolio en la web&body=Hola Pablo, vi tu portfolio en internet y me gustaría conversar contigo.'}>
+              <FaMailBulk />
             </SocialButton>
-            <SocialButton label={'YouTube'} href={'#'}>
-              <FaYoutube />
+            <SocialButton label={'FaWhatsapp'}  href={'https://wa.me/5491138805569?text=Hola, vi tu porfolio y me interesa hacerte una propuesta'}>
+              <FaWhatsapp target="_blank"/>
             </SocialButton>
             <SocialButton label={'Instagram'} href={'#'}>
               <FaInstagram />
