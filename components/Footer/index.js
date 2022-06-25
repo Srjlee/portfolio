@@ -71,7 +71,7 @@ import {
           justify={{ base: 'center', md: 'space-between' }}
           align={{ base: 'center', md: 'center' }}>
           <Logo />
-          <Text>© 2022 Chakra Templates. All rights reserved</Text>
+          <Text>SI LO PUEDES SOÑAR, LO PUEDES LOGRAR</Text>
           <Stack direction={'row'} spacing={6}>
             <SocialButton label={'Twitter'} href={'#'}>
               <FaTwitter />

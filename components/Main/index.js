@@ -12,20 +12,23 @@ import {
     useColorModeValue,
   } from '@chakra-ui/react';
   import {
-    IoAnalyticsSharp,
-    
+    IoAnalyticsSharp,    
     IoLogoBitcoin,
     IoSearchSharp,
   } from 'react-icons/io5';
-  import {IoLogoJavascript, IoLogoHtml5} from 'react-icons/io'
-  // import {SiPostgresql, SiRedux, SiVercel} from 'react-icons/Si'
-  // import {DiReact} from 'react-icons/Di'
+  import {IoLogoJavascript, IoLogoHtml5, IoLogoVercel} from 'react-icons/io'
+  import {SiPostgresql, SiRedux, SiVercel} from 'react-icons/si'
+  import {DiReact} from 'react-icons/di'
   import { ReactElement } from 'react';
+<<<<<<< HEAD
   import logoReact from '../../public/react.svg';
+=======
+  import { PhoneIcon, AddIcon, WarningIcon } from '@chakra-ui/icons'
+>>>>>>> b23f7cccc165daca7a6c36d90cf5c9616246caa4
   
   
   
-  const Feature = ({ text, icon, iconBg }) => {
+  const Feature = ({ text, Image, iconBg }) => {
     return (
       <Stack direction={'row'} align={'center'}>
         <Flex
@@ -33,14 +36,14 @@ import {
           h={8}
           align={'center'}
           justify={'center'}
-          rounded={'full'}
+          rounded={'lg'}
           bg={iconBg}
           border={'1px solid'}
           borderColor={'#ccc'}
           padding={2}
           >
 
-          {icon}
+          {Image}
         </Flex>
         <Text fontWeight={600}>{text}</Text>
       </Stack>
@@ -66,18 +69,24 @@ import {
                 />
               }>
               <Feature
+<<<<<<< HEAD
                 
                 iconBg={'black'}
+=======
+                                  Image={<Icon as={DiReact} color={'dark.500'} w={5} h={5} />}
+                
+                // iconBg={'white'}
+>>>>>>> b23f7cccc165daca7a6c36d90cf5c9616246caa4
                 text={'React.Js'}
                 
               />
               <Feature
-                icon={<Icon as={IoLogoJavascript} color={'dark.500'} w={5} h={5} />}
+                Image={<Icon as={IoLogoJavascript} color={'dark.500'} w={5} h={5} />}
                 iconBg={useColorModeValue('yellow.0', 'yellow.900')}
                 text={'Javascript'}
               />
               <Feature
-                icon={
+                Image={
                   <Icon as={IoLogoHtml5} color={'whiteAlpha.900'} w={5} h={5} />
                 }
                 iconBg={useColorModeValue('orange.0', 'orange.900')}
@@ -92,21 +101,21 @@ import {
                 />
               }>
               <Feature
-                icon={
-                  <Icon as={IoLogoJavascript} color={'blue.500'} w={5} h={5}  />
+                Image={
+                  <Icon as={SiPostgresql} color={'blue.500'} w={5} h={5}  />
                 }
                 iconBg={'white'}
                 text={'Postgress'}
                 
               />
               <Feature
-                icon={<Icon as={IoLogoJavascript} color={'purple.500'} w={5} h={5} />}
+                Image={<Icon as={SiRedux} color={'purple.500'} w={5} h={5} />}
                 iconBg={'#ccc'}
                 text={'Redux'}
               />
               <Feature
-                icon={
-                  <Icon as={IoLogoJavascript} color={'#fff'} w={5} h={5} />
+                Image={
+                  <Icon as={SiVercel} color={'#fff'} w={5} h={5} />
                 }
                 iconBg={'#000'}
                 text={'Next'}
