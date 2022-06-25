@@ -21,6 +21,7 @@ import {
   // import {SiPostgresql, SiRedux, SiVercel} from 'react-icons/Si'
   // import {DiReact} from 'react-icons/Di'
   import { ReactElement } from 'react';
+  import logoReact from '../../public/react.svg';
   
   
   
@@ -65,9 +66,7 @@ import {
                 />
               }>
               <Feature
-                icon={
-                  <Icon as={IoLogoJavascript} color={'blue.500'} w={10} h={10} />
-                }
+                
                 iconBg={'black'}
                 text={'React.Js'}
                 
