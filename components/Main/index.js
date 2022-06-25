@@ -20,11 +20,7 @@ import {
   import {SiPostgresql, SiRedux, SiVercel} from 'react-icons/si'
   import {DiReact} from 'react-icons/di'
   import { ReactElement } from 'react';
-<<<<<<< HEAD
-  import logoReact from '../../public/react.svg';
-=======
   import { PhoneIcon, AddIcon, WarningIcon } from '@chakra-ui/icons'
->>>>>>> b23f7cccc165daca7a6c36d90cf5c9616246caa4
   
   
   
@@ -69,14 +65,9 @@ import {
                 />
               }>
               <Feature
-<<<<<<< HEAD
-                
-                iconBg={'black'}
-=======
-                                  Image={<Icon as={DiReact} color={'dark.500'} w={5} h={5} />}
+                Image={<Icon as={DiReact} color={'dark.500'} w={5} h={5} />}
                 
                 // iconBg={'white'}
->>>>>>> b23f7cccc165daca7a6c36d90cf5c9616246caa4
                 text={'React.Js'}
                 
               />
