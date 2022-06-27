@@ -11,16 +11,12 @@ import {
     Icon,
     useColorModeValue,
   } from '@chakra-ui/react';
-  import {
-    IoAnalyticsSharp,    
-    IoLogoBitcoin,
-    IoSearchSharp,
-  } from 'react-icons/io5';
-  import {IoLogoJavascript, IoLogoHtml5, IoLogoVercel} from 'react-icons/io'
+  
+  import {IoLogoJavascript, IoLogoHtml5} from 'react-icons/io'
   import {SiPostgresql, SiRedux, SiVercel} from 'react-icons/si'
   import {DiReact} from 'react-icons/di'
-  import { ReactElement } from 'react';
-  import { PhoneIcon, AddIcon, WarningIcon } from '@chakra-ui/icons'
+  
+  
   
   
   

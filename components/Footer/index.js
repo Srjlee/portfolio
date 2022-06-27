@@ -2,7 +2,6 @@ import {
     Box,
     chakra,
     Container,
-    Link,
     Stack,
     Text,
     Image,
@@ -10,9 +9,9 @@ import {
     VisuallyHidden,
   } from '@chakra-ui/react';
   import { FaInstagram,  FaMailBulk, FaWhatsapp } from 'react-icons/fa';
-  import { ReactNode } from 'react';
   
-  const Logo = (props) => {
+  
+  const Logo = () => {
     return (
       <>
             <Image src='/logo-sm-solo-fdo-transp-recortada.png'  w={'7rem'}  />
