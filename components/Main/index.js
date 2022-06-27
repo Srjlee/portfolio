@@ -17,9 +17,6 @@ import {
   import {DiReact} from 'react-icons/di'
   
   
-  
-  
-  
   const Feature = ({ text, Image, iconBg }) => {
     return (
       <Stack direction={'row'} align={'center'}>
